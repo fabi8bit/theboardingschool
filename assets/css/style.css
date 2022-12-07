@@ -14,18 +14,77 @@ body {
 
 /* heading */
 
-h1,h2 {
+
+
+
+h1, h2 {
     font-family: Roboto Condensed, sans-serif;
     text-transform: uppercase;
+    color: #222;
 }
 
 #logo-headings img {
     max-height: 150px;
     max-width: 150px;
-    padding: 5px;
+    padding: 10px 20px 10px 10px;
     float: left;
 }
 
+
+
 #logo-headings h1 {
     font-size: 300%;
+    /* line-height: 170px; */
+    color: black;
+
 }
+
+#logo-headings a {
+    text-decoration: none;
+}
+
+#logo-headings {
+    width: 50%;
+    float: left;
+    
+}
+
+#logo-headings, #nav-menu {
+    line-height: 170px;
+
+}
+
+/* Navigation Menu */
+
+#nav-menu {
+    list-style-type: none;
+    font-size: 100%;
+    /* line-height: 170px; */
+    margin: auto;
+}
+
+
+
+#nav-menu li {
+    float:left;
+    margin-right: 20px;
+}
+
+#nav-menu {
+    float:right;
+    
+}
+
+#nav-menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#nav-menu a:hover {
+    border-top: #222 solid 1px;
+}
+
+a.active {
+    border-top: #222 solid 1px;
+}
+
