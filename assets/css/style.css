@@ -192,3 +192,8 @@ a.active {
     /* background-color: #EF4C26; */
 }
 
+#hang-out-separator h1 {
+    font-size: 300%;
+    text-align: center;
+}
+
