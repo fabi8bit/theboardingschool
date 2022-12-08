@@ -126,23 +126,27 @@ a.active {
 
 #home-image {
     height: 800px;
-    width: 100%;
+    width: 90%;
     background: url('../images/home-img-tbs.jpg') no-repeat center center;
-    /* clear: both; */
+    border-radius: 30px;
+    margin: auto;
+    
 
 }
 
 #overlay-claim {
     
-    width: 500px;
-    height: 100px;
+    width: 300px;
+    height: 300px;
 
     padding: 20px;
 
-    background-color: rgba(239, 76, 38, .9);
+    background-color: rgba(239, 76, 38, 1);
 
     top: 20px;
     right: 20px;
+
+    border-radius: 30px;
 
 
     position: absolute;
@@ -159,23 +163,52 @@ a.active {
 .offer-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
+    
     /* justify-content: space-between; */
-    width: 98%;
-    justify-content: center;
+    width: 90%;
+    height: 400px;
+    
     margin: auto;
-    /* background-color: aqua; */
+    background-color: #FFCAE5;
+    border-radius: 30px;
 }
 
-.offer {
+/* .offer {
     display: flex;
     width:49%;
     height:380px;
-    /* background-color: #EF4C26; */
-    margin: 5px;
-    align-items: flex-start;
+    background-color: #EF4C26; 
+    /* margin: 5px; */
+    /*align-items: flex-end;
+    position: relative;
+    }
+    */
+
+    .offer {
+        display: flex;
+        width:350px;
+        /* height:400px; */
+        flex-direction: column;
+        justify-content: flex-start;
+        
+        
+        /* margin: 5px; */
+        padding-top:20px;
+        align-items: flex-start;
+        /* position: relative; */
+        
+    }
+
+/* .offer-txt {
+    position: absolute;
+    background-color: rgba(239, 76, 38, 1);
+    padding: 20px;
+    border-radius: 10px;
+    bottom:10px;
     
-}
+    
+} */
 
 .offer div {
     margin-left: 10px;
@@ -187,17 +220,35 @@ a.active {
     
     font-weight: 400;
     font-size: 200%;
+    
 }
 
 .offer p {
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', 'sans-serif';
     font-weight: 400;
     font-size: 120%;
 }
 
+.offer img {
+    max-width: 100%;
+    border-radius: 10px;
+    
+}
+
+/* .offer1, .offer4 {
+    background-color: white;
+} 
+
+.offer2, .offer3 {
+    background-color: gray;
+}  */
+
+
+
 #hang-out-separator {
     line-height: 100px;
-    /* background-color: #EF4C26; */
+
+    /* background-color: white; */
 }
 
 #hang-out-separator h1 {
