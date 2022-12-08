@@ -115,7 +115,7 @@ a.active {
 /* home image */
 
 #home-image-container {
-    height: 400px;
+    height: 800px;
     width: 100%;
 
     overflow: hidden;
@@ -124,7 +124,7 @@ a.active {
 }
 
 #home-image {
-    height: 400px;
+    height: 800px;
     width: 100%;
     background: url('../images/home-img-tbs.jpg') no-repeat center center;
     /* clear: both; */
@@ -160,16 +160,35 @@ a.active {
     flex-wrap: wrap;
     justify-content: center;
     /* justify-content: space-between; */
-    width: 95%;
+    width: 98%;
     justify-content: center;
     margin: auto;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 .offer {
-    width:40%;
+    display: flex;
+    width:49%;
     height:380px;
-    background-color: #EF4C26;
-    margin: 20px;
-    flex-grow: 1;
+    /* background-color: #EF4C26; */
+    margin: 5px;
+    align-items: flex-start;
+    
 }
+
+.offer div {
+    margin-left: 10px;
+    
+    
+}
+
+.offer h2 {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+}
+
+#hang-out-separator {
+    line-height: 100px;
+    /* background-color: #EF4C26; */
+}
+
