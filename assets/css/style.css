@@ -10,6 +10,7 @@ body {
     font-family: Roboto, sans-serif;
     font-weight: 400;
     color: #222;
+    background-color: #FFDEED;
 }
 
 /* heading */
@@ -22,6 +23,7 @@ h2 {
     font-family: Roboto Condensed, sans-serif;
     text-transform: uppercase;
     color: #222;
+    
 }
 
 #logo-headings img {
