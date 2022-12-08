@@ -17,7 +17,8 @@ body {
 
 
 
-h1, h2 {
+h1,
+h2 {
     font-family: Roboto Condensed, sans-serif;
     text-transform: uppercase;
     color: #222;
@@ -28,7 +29,14 @@ h1, h2 {
     max-width: 150px;
     padding: 20px;
     float: left;
+    animation-name: logo-spin;
+    animation-duration: 2s;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-fill-mode: forwards;
+
 }
+
+
 
 
 
@@ -46,12 +54,25 @@ h1, h2 {
 #logo-headings {
     width: 50%;
     float: left;
-    
+
 }
 
-#logo-headings, #nav-menu {
+#logo-headings,
+#nav-menu {
     line-height: 190px;
 
+}
+
+/* logo animation*/
+
+@keyframes logo-spin {
+    from {
+        transform: rotate(270deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 /* Navigation Menu */
@@ -66,13 +87,13 @@ h1, h2 {
 
 
 #nav-menu li {
-    float:left;
+    float: left;
     margin-right: 20px;
 }
 
 #nav-menu {
-    float:right;
-    
+    float: right;
+
 }
 
 #nav-menu a {
@@ -93,7 +114,7 @@ a.active {
 
 #home-image {
     height: 400px;
-    width:100%;
+    width: 100%;
     background: url('../images/home-img-tbs.jpg') no-repeat center center;
     clear: both;
 
