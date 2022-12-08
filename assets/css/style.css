@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&family=Roboto:wght@100;400&display=swap');
 
 * {
     margin: 0;
@@ -44,7 +44,7 @@ h2 {
 
 #logo-headings h1 {
     font-size: 300%;
-    /* line-height: 170px; */
+    font-weight: 300;
     color: black;
 
 }
@@ -151,4 +151,25 @@ a.active {
     font-family: Roboto, sans-serif;
     color: white;
     font-size: 200%;
+}
+
+/* hang out with us session */
+
+.offer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* justify-content: space-between; */
+    width: 95%;
+    justify-content: center;
+    margin: auto;
+    background-color: aqua;
+}
+
+.offer {
+    width:40%;
+    height:380px;
+    background-color: #EF4C26;
+    margin: 20px;
+    flex-grow: 1;
 }
