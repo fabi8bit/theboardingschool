@@ -266,12 +266,14 @@ footer {
     height: 190px;
 }
 
-.upper-footer, .upper-footer ul {
+.upper-footer {
     display:flex;
     
     
     
 }
+
+
 
 .upper-footer {
     height: 100px;
@@ -286,7 +288,8 @@ footer {
 
 
 .upper-footer ul {
-    list-style-type: none;    
+    list-style-type: none;
+    display: flex;    
 }
 
 .upper-footer li {    
@@ -305,7 +308,11 @@ footer {
 }
 
 .upper-footer-item {
-    align-items: center;
+    
+    align-self: center;
+    
 }
+
+
 
 
