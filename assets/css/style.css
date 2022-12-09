@@ -344,7 +344,7 @@ footer {
 }
 
 
-/* Gallery section*/
+/* Gallery page */
 
 .gallery-container {
     display: flex;
@@ -369,5 +369,48 @@ footer {
 }
 
 
+/*  about us page */
 
 
+
+
+    #about-image-container {
+        height: 800px;
+        width: 100%;
+    
+        overflow: hidden;
+    
+        position: relative;
+    }
+    
+    #about-image {
+        height: 800px;
+        width: 90%;
+        background: url('../images/tbs-about.jpg') no-repeat center center;
+        border-radius: 30px;
+        margin: auto;
+    }
+    
+    #about-overlay-claim {
+        
+        width: 300px;
+        height: 300px;
+    
+        padding: 20px;
+    
+        background-color: rgba(239, 76, 38, 1);
+    
+        top: 20px;
+        right: 20px;
+    
+        border-radius: 30px;
+    
+    
+        position: absolute;
+    }
+    
+    #overlay-claim h2 {
+        
+        color: white;
+        font-size: 200%;
+    }
