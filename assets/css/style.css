@@ -116,7 +116,7 @@ a.active {
 
 /* home image */
 
-#home-image-container {
+.top-image-container {
     height: 800px;
     width: 100%;
 
@@ -411,4 +411,42 @@ footer {
     
 
 }
+
+/* sign up page */
+
+
+
+#signup-image {
+    height: 600px;
+    width: 90%;
+    background: url('../images/signup-image.jpg') no-repeat center center;
+    
+    border-radius: 30px;
+    margin: auto;
+    
+    
+
+}
+
+
+
+#overlay-input-signup {
+    
+    width: 400px;
+    height: 500px;
+
+    padding: 10px;
+
+    background-color: rgba(239, 76, 38, 0.7);
+
+    top: 40px;
+    right: 200px;
+
+    border-radius: 30px;
+
+
+    position: absolute;
+}
+
+
 

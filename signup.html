@@ -30,24 +30,40 @@
                     <a href="gallery.html">Gallery</a>
                 </li>
                 <li>
-                    <a href="about.html" class="active">About</a>
+                    <a href="about.html">About</a>
                 </li>
                 <li>
-                    <a href="#">Sign Up</a>
+                    <a href="signup.html" class="active">Sign Up</a>
                 </li>
             </ul>
         </nav>
 
     </header>
-    <section>
-        <div class="signup-image-container">
-            <img src="" alt="" class="signup-image">
+    <section class="top-image-container">
+
+        <div id="signup-image"></div>
+        <div id="overlay-input-signup">
+            <form action="" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                <label for="surname">Surname:</label>
+                <input type="text" id="surname" name="surname">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <input type="submit" value="Send">
+            </form>
+        </div>
+
+    </section>
+    <!-- <section>
+        <div id="signup-image-container">
+            
             <div class="signup-input">
                 
             </div>
 
         </div>
-    </section>
+    </section> -->
     <footer>
         <div class="upper-footer">
             <p class="upper-footer-item">follow us</p>
