@@ -14,9 +14,32 @@ body {
     background-color: #FFDEED;
 }
 
+.backdrop-color {
+    background-color: #FFCAE5;
+}
+
+.overlay-color {
+    background-color: rgba(239, 76, 38, .9);
+}
+
+button {
+    color: white;
+    background-color: #F15A24;
+    font-family: inherit;
+    border: 1px solid;
+    border-color: white;
+} 
+
 /* heading */
 
-
+.header-container {
+    display: flex;
+    height: 190px;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
 
 
 h1,
@@ -31,7 +54,7 @@ h2 {
     max-height: 150px;
     max-width: 150px;
     padding: 20px;
-    float: left;
+    /* float: left; */
     animation-name: logo-spin;
     animation-duration: 2s;
     animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -48,24 +71,27 @@ h2 {
     font-size: 250%;
     font-weight: 900;
     color: black;
+    min-width: none;
 
 }
 
 #logo-headings a {
+    display: flex;
+    align-items: center;
     text-decoration: none;
 }
 
 #logo-headings {
-    width: 50%;
+    /* width: 50%; */
     float: left;
 
 }
 
-#logo-headings,
+/* #logo-headings,
 #nav-menu {
     line-height: 190px;
 
-}
+} */
 
 /* logo animation*/
 
@@ -80,6 +106,10 @@ h2 {
 }
 
 /* Navigation Menu */
+
+.header-container nav {
+    flex-shrink: 0;
+}
 
 #nav-menu {
     list-style-type: none;
@@ -142,7 +172,7 @@ a.active {
 
     padding: 20px;
 
-    background-color: rgba(239, 76, 38, 1);
+    
 
     top: 20px;
     right: 20px;
@@ -184,7 +214,7 @@ a.active {
     width: 90%;
     height: auto;
     margin: auto;
-    background-color: #FFCAE5;
+    
     border-radius: 30px;
 }
 
@@ -378,7 +408,8 @@ footer {
     display: flex;
     width: 90%;
     min-height: 200px;
-    background-color: #FFCAE5;
+   
+    
     margin: auto;
     border-radius: 30px;
     flex-direction: column;
@@ -399,7 +430,7 @@ footer {
 .about-text {
     width: 90%;
     height:auto;
-    background-color: #F15A24;
+    /* background-color: #F15A24; */
     padding: 30px;
     font-size:150%;
     border-radius: 10px;
@@ -450,6 +481,10 @@ footer {
 
 /* input form */
 
+#sigup-image-container-resize {
+    height:600px;
+}
+
 .form-container {
     display: flex;
     flex-direction: column;
@@ -477,8 +512,7 @@ footer {
 .form-container button {
     margin-top: 30px;
     width: 50%;
-    color: #F15A24;
-    background-color: white;
+    
 }
 
 .form-item {

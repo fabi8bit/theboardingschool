@@ -13,36 +13,38 @@
 
 <body>
     <header>
-        <div id="logo-headings">
-            <a href="index.html">
+        <div class="header-container">
+            <div id="logo-headings">
+                <a href="index.html">
 
-                <img src="assets/images/TBS-LOGO.png" alt="the boarding school logo">
+                    <img src="assets/images/TBS-LOGO.png" alt="the boarding school logo">
 
-                <h1>the boarding school</h1>
-            </a>
+                    <h1>the boarding school</h1>
+                </a>
+            </div>
+            <nav>
+                <ul id="nav-menu">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="gallery.html">Gallery</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="signup.html" class="active">Sign Up</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
-        <nav>
-            <ul id="nav-menu">
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="gallery.html">Gallery</a>
-                </li>
-                <li>
-                    <a href="about.html">About</a>
-                </li>
-                <li>
-                    <a href="signup.html" class="active">Sign Up</a>
-                </li>
-            </ul>
-        </nav>
 
     </header>
-    <section class="top-image-container">
+    <section id="sigup-image-container-resize" class="top-image-container">
 
         <div id="signup-image"></div>
-        <div id="overlay-input-signup">
+        <div id="overlay-input-signup" class="overlay-color">
             <form action="#" method="post" class="form-container">
                 <img src="assets/images/TBS-LOGO.png" alt="logo tbs">
                 <label for="name" class="form-item">Name:</label>
