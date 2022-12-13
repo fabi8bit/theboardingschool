@@ -53,9 +53,7 @@ h2 {
 #logo-headings img {
     max-height: 150px;
     max-width: 150px;
-    padding: 0 20px;
-    /* padding: 20px; */
-    /* float: left; */
+    padding: 0 20px 0 0;
     animation-name: logo-spin;
     animation-duration: 2s;
     animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -72,7 +70,7 @@ h2 {
     font-size: 250%;
     font-weight: 900;
     color: black;
-    min-width: none;
+    /* min-width: none; */
 
 }
 
@@ -80,6 +78,7 @@ h2 {
     display: flex;
     align-items: center;
     text-decoration: none;
+    margin: 0 30px;
 }
 
 #logo-headings {
@@ -521,9 +520,9 @@ footer {
     }
 }
 
-/* Resize from 700px down */
+/* Resize from 750px down */
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 750px) {
     .header-container {
         display: flex;
         height: 220px;
@@ -544,6 +543,29 @@ footer {
 
     #logo-headings img {
         padding: 0 20px 0 0;
+    }
+
+    #home-image {
+        height: 200px;
+        width: 90%;
+        background-size: cover;
+        border-radius: 30px;
+        margin: auto;
+    }
+
+    .top-image-container {
+        height: 300px;
+    }
+
+    #overlay-claim {
+        width: 300px;
+        height: auto;
+        padding: 20px;
+        top: 145px;
+        right: 50%;
+        margin-right: -170px;
+        border-radius: 30px;
+        position: absolute;
     }
 
     #hang-out-separator h1 {
@@ -608,24 +630,9 @@ footer {
         margin-top: 10px;
     }
 
-    #home-image {
-        height: 200px;
-        width: 90%;
-        background: url('../images/home-img-tbs.jpg') no-repeat center center;
-        background-size: cover;
-        border-radius: 30px;
-        margin: auto;
-    }
 
-    #overlay-claim {
-        width: 300px;
-        height: 300px;
-        padding: 20px;
-        top: 20px;
-        right: 20px;
-        border-radius: 30px;
-        /* position: absolute; */
-    }
+
+
 
 
 
