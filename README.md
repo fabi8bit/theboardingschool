@@ -1,8 +1,8 @@
-body # The Boarding School Skateboards
+# The Boarding School Skateboards
 
 The Boarding School is the website of a skateboard school specialized in longboarding. The aim of the school is to gather people ranging from 18 years old and older, around longboarding. It offers not only programs specialized in various disciplines of longboarding, but also opportunities for people with an interest for the skateboard culture to chat together.
 
-![Responsice Mockup](url)
+![Responsive Mockup](url)
 
 
 
