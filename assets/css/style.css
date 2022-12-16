@@ -210,48 +210,21 @@ a.active {
     border-radius: 30px;
 }
 
-/* .offer {
-    display: flex;
-    width:49%;
-    height:380px;
-    background-color: #EF4C26; 
-    /* margin: 5px; */
-/*align-items: flex-end;
-    position: relative;
-    }
-    */
+
 
 .offer {
     display: flex;
     width: 350px;
-    /* height:400px; */
     flex-direction: column;
     justify-content: flex-start;
-
-
-    /* margin: 5px; */
     padding-top: 20px;
     align-items: flex-start;
     margin: 10px;
-    /* position: relative; */
-
 }
 
-/* .offer-txt {
-    position: absolute;
-    background-color: rgba(239, 76, 38, 1);
-    padding: 20px;
-    border-radius: 10px;
-    bottom:10px;
-    
-    
-} */
 
 .offer div {
-    margin-left: 10px;
-
-
-}
+    margin-left: 10px;}
 
 .offer h2 {
 
@@ -271,16 +244,6 @@ a.active {
     border-radius: 10px;
 
 }
-
-/* .offer1, .offer4 {
-    background-color: white;
-} 
-
-.offer2, .offer3 {
-    background-color: gray;
-}  */
-
-
 
 
 
@@ -406,10 +369,7 @@ footer {
 
 .about-image {
     max-height: 500px;
-    /* margin-top: 150px;
-    margin-left: 800px; */
     border-radius: 10px;
-    /* z-index: 1; */
     margin: 20px;
 
 }
@@ -499,7 +459,6 @@ footer {
     width: 90%;
     height: 50px;
     border-radius: 10px;
-    /* margin: 5px 0; */
 
 }
 
@@ -646,6 +605,11 @@ footer {
         position: absolute;
         left: 50%;
         margin-left: -180px
+    }
+
+    .gallery-element {
+        max-width: 90%;
+
     }
 
     #signup-image {
