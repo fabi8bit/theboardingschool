@@ -7,7 +7,6 @@
 }
 
 body {
-    /* font-family: 'Roboto', sans-serif; */
     font-family: 'Work Sans', sans-serif;
     font-weight: 400;
     color: #222;
@@ -70,8 +69,6 @@ h2 {
     font-size: 250%;
     font-weight: 900;
     color: black;
-    /* min-width: none; */
-
 }
 
 #logo-headings a {
@@ -82,18 +79,11 @@ h2 {
 }
 
 #logo-headings {
-    /* width: 50%; */
     float: left;
 
 }
 
-/* #logo-headings,
-#nav-menu {
-    line-height: 190px;
 
-} */
-
-/* logo animation*/
 
 @keyframes logo-spin {
     from {
@@ -114,7 +104,6 @@ h2 {
 #nav-menu {
     list-style-type: none;
     font-size: 100%;
-    /* line-height: 170px; */
     margin: auto;
 }
 
@@ -224,7 +213,8 @@ a.active {
 
 
 .offer div {
-    margin-left: 10px;}
+    margin-left: 10px;
+}
 
 .offer h2 {
 
@@ -334,8 +324,6 @@ footer {
     margin: auto;
     flex-wrap: wrap;
     align-content: flex-start;
-    /* flex-direction: column; */
-
 
 }
 
@@ -358,8 +346,6 @@ footer {
     display: flex;
     width: 90%;
     min-height: 200px;
-
-
     margin: auto;
     border-radius: 30px;
     flex-direction: column;
@@ -428,7 +414,6 @@ footer {
 .form-container {
     display: flex;
     flex-direction: column;
-    /* justify-content: space-evenly; */
     align-items: center;
     height: 510px;
 }
