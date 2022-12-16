@@ -1,13 +1,15 @@
 # The Boarding School Skateboards
 
-The Boarding School is the website of a skateboard school specialized in longboarding. The aim of the school is to gather people ranging from 18 years old and older, around longboarding. It offers not only programs specialized in various disciplines of longboarding, but also opportunities for people with an interest for the skateboard culture to chat together.
+The Boarding School (TBS skateboarding) is the website of a skateboard school specializing in longboarding. The school offers lessons and instruction on how to ride a longboard, which is a type of skateboard that is generally longer and wider than a traditional skateboard. It offers classes for beginners as well as more advanced riders, and covers topics such as balance, carving, turning, braking, and tricks. TBS aims to gather people ranging from 18 years old and older, around longboarding. It offers not only programs specialized in various disciplines of longboarding, but also opportunities for people with an interest for the skateboard culture to chat together.
 
 ![Responsive Mockup](url)
 
 
 
 
-### Development of the idea
+## Development of the idea
+
+### Where the idea comes from
 
 I'm almost 50 years old and I'm passionate about skateboarding since I was 11 years old. With my age is basically impossible to skate as you wish unless you are Tony Hawk and because once you are a skater you are gonna be a skater for the rest of your life (but not your body) I thought it is a good idea to invent a skateboard school: TBS Skateboarding.
 
