@@ -42,14 +42,14 @@ I'm almost 50 years old and I'm passionate about skateboarding since I was 11 ye
 
   - __Header__
 
-  - the header is divided in two parts, the logo, and the navigation bar. This structure is replicated in all the pages of the site in order to give the optimal user experience possible. The logo has a spin animation on load in order to give the impression that rolls as a skateboard wheel. The navigation bar permits to navigate the site back and forth without the use of the back button of the browser.
-  - this section is fully responsive and adapts to different screens sizes, changing the position of the elements accordingly to the screen aspect ratios.
+  - The header is divided in two parts, the logo, and the navigation bar. This structure is replicated in all the pages of the site in order to give the optimal user experience possible. The logo has a spin animation on load in order to give the impression that rolls as a skateboard wheel. The navigation bar permits to navigate the site back and forth without the use of the back button of the browser.
+  - This section is fully responsive and adapts to different screens sizes, changing the position of the elements accordingly to the screen aspect ratios.
 
 ![Header](readme_images/header-scrshot.webp)
 
 - __Homepage image__
 
-  - the image hopes to transmit the right vibe to the user and includes an overlay claim that pops to the eyes.
+  - The image hopes to transmit the right vibe to the user and includes an overlay claim that pops to the eyes.
 
 ![Homepage image](readme_images/homepage-scrshot.webp)
 
