@@ -92,7 +92,7 @@ I'm almost 50 years old, and I have been passionate about skateboarding since ag
 
 ## Testing 
 
-The website has been tested in all its parts and works as intended. It is fully responsive and supports all screen sizes down to 390px. The tests were conducted using the inspector of Google Chrome. It scored high results with Lighthouse both on [Desktop](readme_images/lighthouse_desktop_results.png) and [Mobile](readme_images/lighthouse_mobile_results.png) ([Screenshot_Mobile](readme_images/lighthouse_mobile_test_scrshot.png)).
+The website has been tested in all its parts and works as intended. It is fully responsive and supports all screen sizes down to 350px. The tests were conducted using the inspector of Google Chrome. It scored high results with Lighthouse both on [Desktop](readme_images/lighthouse_desktop_results.png) and [Mobile](readme_images/lighthouse_mobile_results.png) ([Screenshot_Mobile](readme_images/lighthouse_mobile_test_scrshot.png)).
 The elements adapt and change their appearence according to the aspect ratio of the screen without breaking the design.
 
 
