@@ -115,8 +115,8 @@ The elements adapt and change their appearence accordingly to the aspect ratio o
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
-  - On the right menu click on pages
-  - On Build and Deployment section select the main branch and click on save
+  - On the left menu click on pages
+  - On Build and Deployment section select the main branch and click save
   - Once saved the url of the page will appear on top of the page 
 
 The live link can be found here - https://fabi8bit.github.io/theboardingschool/
