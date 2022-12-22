@@ -106,7 +106,10 @@ The elements adapt and change their appearence according to the aspect ratio of 
 - CSS
   - No errors were found when passing through the official [W3C CSS validator](readme_images/w3c_css-validator_scrshot.png)
 
+### Unfixed
 
+- Lighthouse spots undeclared width and hight for some images. Putting the right aspect-ratio (checked on Photoshop) it says that the image is distort (but infact was not) so I decided to left them undeclared because it scores higher results.
+In future the images will be converted to WebP. The jpg were also tinyfied using [tinyPNG](https://tinypng.com/)
 
 ## Deployment
 
